@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media(max-width: 676px){
+    .form-page{
+        min-width: 100%;
+    }
+
+    .from{
+        min-width: 100%;
+    }
+
+    .submit-btn{
+        align-self: center;
+        width: 100%;
+    }
+}
+.form-page{
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    background-color: aliceblue;
+    box-shadow: 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.2);
+    margin: 22px;
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+
+.form-heading{
+    font-family: roboto;
+    color: black;
+    align-self: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.label{
+    font-family: roboto;
+    margin-bottom: -12px;
+}
+
+.input-container{
+    font-family: roboto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+
+.submit-btn{
+    background-color: #2196F3;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-family: roboto;
+    padding: 8px;
+    width: 34%;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .submitted-successfully-text {
+    font-size: 2rem;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+    color: #333;
+  }

@@ -1,0 +1,42 @@
+@media(max-width: 676px){
+    .user-card{
+        min-width: 40%;
+    }
+}
+
+.user-card{
+    list-style-type: none;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 8px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-id{
+    font-family: roboto;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.name{
+    font-family: roboto;
+}
+
+.delete-btn{
+    background-color: #dc3545;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 12px;
+    font-family: roboto;
+    color: #fff;
+}
+
+.delete-btn:hover{
+    cursor: pointer;
+}
